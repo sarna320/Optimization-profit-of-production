@@ -1,0 +1,35 @@
+reset;
+
+model projekt.mod;
+
+option solver gurobi;
+
+solve;
+
+display 
+s1,
+s2,
+c1,
+c2,
+p1,
+sp1,
+sp2,
+sz2,
+sd11,
+sd12,
+sd21,
+sd22,
+sd1,
+sd2,
+w1,
+w2,
+p,
+lpt,
+kz1,
+kz2,
+fz2,
+ys21,
+ys22,
+ys23,
+yz1,
+yz2;
